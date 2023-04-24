@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/agendar.css">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        
+        <!--FUENTES-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Secular+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+
+        <!-- Jquery js NUEVO -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        
+        <!-- validation js -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+
+        <!-- bootstrap js-->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <header>
+           
+                <nav class="navbar bg-body-tertiary" style="background-color: #641c34 !important;">
+                    <div class="container-fluid d-flex justify-content-between" >
+                        
+                        <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" style="width: 200px;"placeholder="Buscar" aria-label="Search">                       
+                    </form>
+                    
+                    <a class="nav-link active" href="signup.html">
+                        <img alt="Mi Naf" class="icon-link" src="images/user2.png" style="width:40px;" /> 
+                        <span style="color:#ffffff;display: unset;text-transform: none;">Iniciar Sesion</span>
+                    </a>
+                    
+                    </div>
+                </nav>
+    
+                
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #ffffff !important; box-shadow: rgba(0, 0, 0, 0.1) 4px 4px 8px !important;">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/CLINICANAF3.png" style="width: 200px;"alt="">
+    
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="nuestraclinica.html" style="color: black;" id="barraprincipal">Nuestra Clínica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html" style="color: black;" id="barraprincipal">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="barraprincipal" href="#" style="color: black;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Servicios
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Función Nasal</a></li>
+                        <li><a class="dropdown-item" href="#">Impedanciometría</a></li>
+                        <li><a class="dropdown-item" href="#">Audiometría</a></li>
+                        <li><a class="dropdown-item" href="#">Pruebas de disfuncion tubaria</a></li>
+                        <li><a class="dropdown-item" href="8vopar.html">Octavo Par</a></li>
+                        <li><a class="dropdown-item" href="#">Vhit</a></li>
+                        <li><a class="dropdown-item" href="#">Vemps</a></li>
+                        <li><a class="dropdown-item" href="electrococleografia.html">Electrococleografia</a></li>
+                        <li><a class="dropdown-item" href="lavadooidos.html">Lavado de oidos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " style="color: black;" id="barraprincipal">Noticias</a>
+                    </li>
+                    </ul>
+                    <button type="button" class="btn btn-dark btn-lg">
+                        <a href="agendarhora.html" class="card-link" style="text-decoration:none; color: white;">Agendar Hora</a>
+                   
+                </div>
+                </div>
+            </nav>
+            
+        </header>
+
+        
+        <div class="container">
+            <div class="calendar">
+              <div class="front">
+                <div class="current-date">
+                  <h1>Abril 2023</h1> 
+                </div>
+      
+                <div class="current-month">
+                  <ul class="week-days">
+                    <li>LUN</li>
+                    <li>MAR</li>
+                    <li>MIE</li>
+                    <li>JUE</li>
+                    <li>VIE</li>
+                    <li>SAB</li>
+                    <li>DOM</li>
+                  </ul>
+      
+                  <div class="weeks">
+                    <div class="first">
+                      <span class="last-month">27</span>
+                      <span class="last-month">28</span>
+                      <span class="last-month">29</span>
+                      <span class="last-month">30</span>
+                      <span class="last-month">31</span>
+                      <span id="btnfecha">01</span>
+                      <span id="btnfecha">02</span>
+                    </div>
+      
+                    <div class="second">
+                      <span id="btnfecha">03</span>
+                      <span id="btnfecha">04</span>
+                      <span class="event" id="btnfecha">05</span>
+                      <span id="btnfecha">06</span>
+                      <span id="btnfecha">07</span>
+                      <span id="btnfecha">08</span>
+                      <span id="btnfecha">09</span>
+                    </div>
+      
+                    <div class="third">
+                      <span id="btnfecha">10</span>
+                      <span id="btnfecha">11</span>
+                      <span id="btnfecha">12</span>
+                      <span id="btnfecha">13</span>
+                      <span class="active" id="btnfecha">14</span>
+                      <span id="btnfecha">15</span>
+                      <span id="btnfecha">16</span>
+                    </div>
+      
+                    <div class="fourth">
+                      <span id="btnfecha">17</span>
+                      <span id="btnfecha">18</span>
+                      <span id="btnfecha">19</span>
+                      <span id="btnfecha">20</span>
+                      <span id="btnfecha">21</span>
+                      <span id="btnfecha">22</span>
+                      <span id="btnfecha">23</span>
+                    </div>
+      
+                    <div class="fifth">
+                      <span id="btnfecha">24</span>
+                      <span id="btnfecha">25</span>
+                      <span id="btnfecha">26</span>
+                      <span id="btnfecha">27</span>
+                      <span id="btnfecha">28</span>
+                      <span id="btnfecha">29</span>
+                      <span id="btnfecha">30</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="back">
+                <input placeholder="¿Desea agendar hora?">
+                <div class="info">
+                  <div class="date">
+                    <p class="info-date">
+                    Fecha: <span>Viernes 14 abril, 2023</span>
+                    </p>
+                    <p class="info-time">
+                      Hora: <span>6:35 PM</span>
+                    </p>
+                  </div>
+                  <div class="address">
+                    <p>
+                      Direccion: <span>Av. blanca estela, concon</span>
+                    </p>
+                  </div>
+                  <div class="observations">
+                    <p>
+                      Observaciones: <span>Llegar 15 minutos antes</span>
+                    </p>
+                  </div>
+                </div>
+      
+                <div class="actions">
+                  <button class="save">
+                    Guardar <i class="ion-checkmark"></i>
+                  </button>
+                  <button class="dismiss">
+                    Rechazar <i class="ion-android-close"></i>
+                  </button>
+                </div>
+              </div>
+      
+            </div>
+          </div>
+
+          <!--<div>
+
+          <p>Click the below button to fill your profile details.</p>
+            <button id="Mybtn" class="btn btn-primary">Edit Your Details</button>
+            <form id="MyForm" action="" method="post">
+  	        <label>Enter Name</label>
+	        <input type="text" name="name" placeholder="Enter your name"/><br>
+  	        <label>Enter Email</label>
+	        <input type="email" name="email" placeholder="Enter your email"/><br>
+  	        <input type="button" class="btn btn-default" name="submit" value="Submit"/>
+            </form>
+        </div>!-->
+        
+        
+        <script src="js/agendar.js"></script>
+    </body>
+</html>
