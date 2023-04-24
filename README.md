@@ -19,6 +19,14 @@ El apartado ***"Servicios"***(que dirige a el nombre de los servicios que aparec
 
 De momento esas son las ***funciones mas importantes*** que tengo en mente para implementar como prioridad. 
 
+## ACTUALIZACIÓN EP2.2:
+
+En esta entrega parcial agregué lo siguiente:
+
+* Añadí un preprocesador de hojas de estilo como SASS, la cual la apliqué en el apartado contacto.html
+* Se incluyó interaccion en el front-end con uso de JS usando JQUERY en el apartado de Registrarse al momento de registrar, se abré una pagina mostrando los datos que ingresó el usuario. Empezé el proceso de agregar: Agendar Hora, esta muy prematuro asi que aun no realiza ninguna funcion importante, solo dejé la base hecha.
+* Agregué la validación de formularios al momento de Registrarse, con ciertas restricciones.
+
 
 
 
