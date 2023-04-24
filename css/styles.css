@@ -68,13 +68,30 @@
   top: 15%;
 }
 
-.fondo-azul {
+/*.fondo-azul {
   background: #641c34;
   padding: 2% 7% !important;
 }
 
 .fondo-azul p {
   color: #fff !important;
+}*/
+
+#panel, #fondo-azul {
+  padding: 5px;
+  text-align: center;
+  background-color: #641c34;
+  color: #fff !important;
+  
+}
+#panel, #fondo-azul p {
+  color: #fff !important;
+}
+
+
+#panel {
+  padding: 50px;
+  display: none;
 }
 
 .listas {
